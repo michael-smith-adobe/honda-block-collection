@@ -106,6 +106,10 @@ footer .footer[data-block-status="loaded"] {
   }
 }
 
+h1, h2 {
+  color: #cc0001;
+}
+
 h1,
 h2,
 h3,
@@ -118,7 +122,6 @@ h6 {
   font-weight: 600;
   line-height: 1.25;
   scroll-margin: 40px;
-  color: #cc0001;
 }
 
 h1 { font-size: var(--heading-font-size-xxl); }
