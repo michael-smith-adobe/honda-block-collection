@@ -25,6 +25,7 @@
 .table table thead tr {
   border-top: 2px solid #dadada;
   border-bottom: 2px solid #dadada;
+  background-color: #007cc3;
 }
 
 .table table tbody tr {
