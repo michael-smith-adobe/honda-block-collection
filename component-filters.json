@@ -10,7 +10,6 @@
     "components": [
       "accordion",
       "cards",
-      "child-page-list-card",
       "carousel",
       "columns",
       "embed",
