@@ -142,9 +142,12 @@
   }
 
   .carousel .carousel-slide .carousel-slide-content {
-    --slide-content-width: calc((100% - 184px) / 2);
+    --slide-content-width: calc(100%);
 
     margin: 92px;
+  }
+  .carousel .carousel-slide .carousel-slide-content#h2 {
+    margin: 0;
   }
 
   .carousel .carousel-slide .carousel-slide-content[data-align='justify'] {
