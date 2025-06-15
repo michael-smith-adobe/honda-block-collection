@@ -62,7 +62,7 @@
   width: var(--slide-content-width, auto);
 }
 
-.carousel .carousel-slide .carousel-slide-content#h2 {
+.carousel .carousel-slide .carousel-slide-content h2 {
   margin:0;
   margin-block:0.2em;
 }
