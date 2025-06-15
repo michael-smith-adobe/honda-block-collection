@@ -104,25 +104,6 @@
       }
     ]
   },
-    {
-    "id": "child-page-list-card",
-    "fields": [
-      {
-        "component": "reference",
-        "valueType": "string",
-        "name": "div:nth-child(1)>div:nth-child(1)>p:nth-child(1)>a:nth-child(1)[href]",
-        "label": "Parent Page URL",
-        "multi": false
-      },
-      {
-        "component": "count",
-        "valueType": "number",
-        "name": "div:nth-child(2)",
-        "label": "List Size",
-        "multi": false
-      }
-    ]
-  },
   {
     "id": "carousel-item",
     "fields": [
