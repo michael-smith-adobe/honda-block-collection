@@ -92,17 +92,6 @@
           },
           "model": "card"
         },
-                {
-          "title": "Child Page List Card",
-          "id": "child-page-list-card",
-          "plugins": {
-            "da": {
-              "name": "child-page-list-card",
-              "unsafeHTML": "<div><div><picture><source type=\"image/webp\" srcset=\"\"><source type=\"image/jpeg\" srcset=\"\"><img loading=\"lazy\"></picture></div><div></div></div>"
-            }
-          },
-          "model": "child-page-list-card"
-        },
         {
           "title": "Carousel",
           "id": "carousel",
