@@ -144,7 +144,7 @@
   .carousel .carousel-slide .carousel-slide-content {
     --slide-content-width: calc(100%);
 
-    margin: 92px;
+    margin: 0;
   }
   .carousel .carousel-slide .carousel-slide-content#h2 {
     margin: 0;
