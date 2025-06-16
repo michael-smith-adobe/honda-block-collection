@@ -26,7 +26,7 @@
 
 /* search results */
 .search ul.search-results {
-  position: inherit;
+  position: absolute;
   margin-top: 10px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(278px, 1fr));
