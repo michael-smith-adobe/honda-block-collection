@@ -26,6 +26,8 @@
 
 /* search results */
 .search ul.search-results {
+  position: inherit;
+  margin-top: 10px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(278px, 1fr));
   gap: 24px;
@@ -37,10 +39,14 @@
   border: 1px solid #dadada;
 }
 
+.search ul.search-results > li {
+  background-color: white;
+}
+
 .search ul.search-results > li > a {
   display: block;
   height: 100%;
-  background-color: transparent;
+  /* background-color: transparent; */
   color: currentcolor;
   cursor: pointer;
 }
@@ -69,9 +75,11 @@
   font-size: var(--body-font-size-s);
 }
 
+/*
 .search ul.search-results > li .search-result-image {
   aspect-ratio: 4 / 3;
 }
+*/
 
 .search ul.search-results > li picture img {
   height: 24px;
