@@ -74,9 +74,9 @@
 }
 
 .search ul.search-results > li picture img {
-  display: block;
-  width: 100%;
-  object-fit: cover;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
 }
 
 /* no results */
