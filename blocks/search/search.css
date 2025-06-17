@@ -63,6 +63,8 @@
 }
 
 .search ul.search-results > li .search-result-title {
+  margin-top: -8px;
+  margin-left: 25px;
   font-size: var(--body-font-size-m);
   font-weight: normal;
 }
@@ -83,9 +85,10 @@
 */
 
 .search ul.search-results > li .search-result-image {
-  position: absolute;
-  top: 2px;
-  left: -34px;
+  position: relative;
+  top: 25px;
+  left: 16px;
+  width: fit-content;
 }
 
 .search ul.search-results > li picture img {
