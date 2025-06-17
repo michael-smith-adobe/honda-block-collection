@@ -53,7 +53,6 @@ async function handleSubmit(form) {
 
     window.location.href = form.dataset.confirmation;
     // create payload
-    /*
     const payload = generatePayload(form);
     const response = await fetch(form.dataset.action, {
       method: 'POST',
@@ -67,6 +66,7 @@ async function handleSubmit(form) {
         window.location.href = form.dataset.confirmation;
       }
     } else {
+      window.location.href = form.dataset.confirmation;
       const error = await response.text();
       throw new Error(error);
     }
@@ -77,7 +77,6 @@ async function handleSubmit(form) {
     form.setAttribute('data-submitting', 'false');
     submit.disabled = false;
   }
-  */
 }
 
 export default async function decorate(block) {
