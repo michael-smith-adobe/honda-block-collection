@@ -62,14 +62,15 @@ async function handleSubmit(form) {
     });
     if (response.ok) {
       if (form.dataset.confirmation) {
-        window.location.href = form.dataset.confirmation;
+        window.location.href = form.dataset.action;
       }
     } else {
-      window.location.href = form.dataset.confirmation;
+      window.location.href = form.dataset.action;
       const error = await response.text();
       throw new Error(error);
     }
   } catch (e) {
+    window.location.href = form.dataset.action;
     // eslint-disable-next-line no-console
     console.error(e);
   } finally {
