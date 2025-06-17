@@ -49,6 +49,7 @@
   /* background-color: transparent; */
   color: currentcolor;
   cursor: pointer;
+  max-width: 400px;
 }
 
 .search ul.search-results > li > a:hover,
@@ -80,6 +81,12 @@
   aspect-ratio: 4 / 3;
 }
 */
+
+.search ul.search-results > li .search-result-image {
+  position: absolute;
+  top: 2px;
+  left: -34px;
+}
 
 .search ul.search-results > li picture img {
   height: 24px;
