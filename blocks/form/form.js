@@ -51,7 +51,6 @@ async function handleSubmit(form) {
     form.setAttribute('data-submitting', 'true');
     submit.disabled = true;
 
-    window.location.href = form.dataset.confirmation;
     // create payload
     const payload = generatePayload(form);
     const response = await fetch(form.dataset.action, {
